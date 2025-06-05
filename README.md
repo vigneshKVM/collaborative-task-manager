@@ -1,4 +1,4 @@
-# 🧩 Collaborative Task Manager
+# Collaborative Task Manager
 
 A modern, user-friendly task management tool built with **Next.js App Router**, **React**, **Zustand**, and **ShadCN UI**, allowing real-time collaboration with task filtering, sorting, drag-and-drop reordering, and more.
 
