@@ -4,19 +4,19 @@ A modern, user-friendly task management tool built with **Next.js App Router**, 
 
 ---
 
-## ✨ Features
+## Features
 
-- ✅ Add, update, and delete tasks
-- 🔍 Search and filter tasks by status, priority, and title
-- 🔃 Sort tasks by due date or priority (ascending/descending)
-- 🧲 Drag-and-drop task reordering (column-based)
-- 💬 UI built using [ShadCN UI](https://ui.shadcn.com/)
-- 📦 State management via [Zustand](https://zustand-demo.pmnd.rs/)
-- ⚡ Data fetching and mutation using [TanStack Query](https://tanstack.com/query)
+- Add, update, and delete tasks
+- Search and filter tasks by status, priority, and title
+- Sort tasks by due date or priority (ascending/descending)
+- Drag-and-drop task reordering (column-based)
+- UI built using [ShadCN UI](https://ui.shadcn.com/)
+- State management via [Zustand](https://zustand-demo.pmnd.rs/)
+- Data fetching and mutation using [TanStack Query](https://tanstack.com/query)
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Next.js 14+ App Router**
 - **React 18+**
@@ -29,7 +29,7 @@ A modern, user-friendly task management tool built with **Next.js App Router**, 
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 
@@ -58,7 +58,7 @@ Open [http://localhost:3000](http://localhost:3000) to see it in action.
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 src/
@@ -73,7 +73,7 @@ src/
 
 ---
 
-## 🔧 Development Notes
+## Development Notes
 
 - All API operations (CRUD) are handled in-memory via `taskStore.ts`
 - No database or persistent backend — suitable for demos or enhancements
@@ -81,7 +81,7 @@ src/
 
 ---
 
-## 📦 Future Improvements
+## Future Improvements
 
 - Persistent backend (e.g., Supabase, MongoDB)
 - Auth support (NextAuth.js)
@@ -90,30 +90,30 @@ src/
 
 ---
 
-## 🧑‍💻 Author
+## Author
 
 **Vignesh Moorthy**  
 [GitHub](https://github.com/vignesh-moorthy) • [LinkedIn](https://linkedin.com/in/vignesh-moorthy)
 
 ---
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## 🍽 Recipes Route (`/recipies`)
+## Recipes Route (`/recipies`)
 
 This route is added to demonstrate integration with an external API.
 
-### 🔗 Endpoint
+### Endpoint
 
 ```
 GET /recipies
 ```
 
-### 📄 Description
+### Description
 
 Fetches a list of recipe data from an external API and renders it within the app. This is useful for demonstrating:
 
@@ -121,7 +121,7 @@ Fetches a list of recipe data from an external API and renders it within the app
 - Server-side fetching and rendering
 - Custom pages outside of the core task manager
 
-### 🧪 Example Usage
+### Example Usage
 
 Visit [http://localhost:3000/recipies](http://localhost:3000/recipies) in your browser to explore sample recipes.
 
