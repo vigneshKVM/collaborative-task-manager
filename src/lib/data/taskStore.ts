@@ -1,4 +1,3 @@
-// lib/data/taskStore.ts
 import { Task } from '@/types/task';
 
 const globalForTasks = globalThis as unknown as {

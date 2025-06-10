@@ -13,7 +13,7 @@ import { useState, ReactNode } from 'react';
 
 interface EditTaskModalProps {
   task: Task;
-  children?: ReactNode; // 👈 Optional trigger button/icon
+  children?: ReactNode;
 }
 
 export const EditTaskModal = ({ task, children }: EditTaskModalProps) => {
